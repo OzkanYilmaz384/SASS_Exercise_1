@@ -1,0 +1,29 @@
+.exercise {
+  border: 1px solid red;
+  padding: 20px;
+}
+.exercise .exercise-title {
+  color: green;
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+  text-decoration-thickness: 1px;
+  text-align: center;
+  text-underline-offset: 8px;
+}
+.exercise section {
+  display: flex;
+}
+.exercise section article {
+  border: 1px solid green;
+  padding: 15px;
+  text-align: center;
+}
+.exercise section article:nth-child(odd) p {
+  color: blue;
+  text-indent: 20px;
+}
+.exercise section article:nth-child(even) p {
+  color: red;
+  text-indent: 20px;
+}/*# sourceMappingURL=styles.css.map */
